@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <link>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title></title>
     <link href="css/style.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 </head>
 <body>
 
 <div id="container">
     <nav class="center">
-        <a href="#">TRANG CHU</a> |
-        <a href="#">MUC VU</a> |
-        <a href="#">THONG TIN</a> |
-        <a href="#">LIEN HE</a>
+        <ul>
+           <li><a href="#">TRANG CHU |</a></li>
+           <li><a href="#">MUC VU |</a></li>
+           <li><a href="#">THONG TIN |</a></li>
+           <li><a href="#">LIEN HE</a></li>
+         </ul>
     </nav> 
 
     <div id="content">
@@ -20,36 +26,73 @@
             <img src="./images/silder.jpg">
         </div>
 
-        <div class="center" id="event">
+        <div class="center" id="events">
             <div id="">
-                
+                <div class="event">
+                    CHƯƠNG TRÌNH
+                </div>
+                <div class="event">
+                    TÌM HIỂU VỀ CHÚA
+                </div>
+                <div class="event">
+                    KẾT NỐI
+                </div>
+                <div class="event">
+                    BÀI GIẢNG ONLINE
+                </div>
             </div>
 
-            <div id="main-event">
-                
+            <div id="main-events">
+                <div class="main-event">
+                    <p>đức tin đi theo cảm xúc và đức tin thật</p>
+                    <p>thông báo</p>
+                </div>
+                <div class="main-event">
+                    <p>những sự kiện</p>
+                    <p>nổi bật</p>
+                </div>
+                <div class="main-event">
+                    <p>đền thờ mới</p>
+                    <p>chương trình sinh hoạt thanh niên</p>
+                </div>
             </div>
         </div>
 
-        <div>
-            <div id="schedule">
-                
+        <div class="center clearfix" id="content-3">
+            <div class="gionhom" id="schedule">
+                <ul>
+                    <li>
+                        THỜ PHƯỢNG CHÚA NHẬT
+                    </li>
+                    <li>
+                        TRƯỜNG CHÚA NHẬT
+                    </li>
+                    <li>
+                        HỌC KINH THÁNH THỨ 5
+                    </li>
+                    <li>
+                        TRUYỀN GIẢNG THỨ 6
+                    </li>
+                </ul>
             </div>
 
-            <div id="ban-nganh">
-                
+            <div class="gionhom" id="ban-nganh">
+                hình ảnh cac ban ngành
             </div>
         </div>
     </div>
 
-    <footer>
-        <div id="address">
-            <p>HOI THANH TIN LANH VIET NAM</p>
-            <p>109 phan dang luu</p>
-        </div>
+    <footer class="clearfix">
+        <div class="center">
+            <div class="footer-block" id="address">
+                <p><b>HOI THANH TIN LANH VIET NAM (VN) - CHI HỘI GIA ĐỊNH</b></p>
+                <p>109 Phan Dang Luu, Phường 7, Quận Phú Nhuận, Tp.Hồ Chí Minh</p>
+            </div>
 
-        <div id="contact">
-            <p>Dien thoai</p>
-            <p>Email</p>
+            <div class="footer-block" id="contact">
+                <p>Dien thoai</p>
+                <p>Email</p>
+            </div>
         </div>
     </footer> 
 </div>
