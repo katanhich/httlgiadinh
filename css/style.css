@@ -81,18 +81,32 @@ footer {
     background-color: white;
     width: 189px;
     height: 100px;
-    border-radius: 5px;
+    border-radius: 7px;
+    box-shadow: 0px 2px 10px 0px #888888;
 }
 
 .event:last-child {
     margin-right: 0;
 }
 
+#main-events {
+    padding-top: 130px;
+}
+
 .main-event {
     float: left;
     width: 255px;
     color: white;
+}
+
+.block-left-event {
+    padding-left: 25px;
+    font-size: 14px;
+}
+
+.block-among-event {
     text-align: center;
+    font-size: 30px;
 }
 
 #content-3 {
@@ -111,4 +125,13 @@ footer {
     content: " ";
     clear: both;
     height: 0;
+}
+
+.block-red {
+    background-color: #E3113D !important;
+    color: white;
+}
+
+.text-red {
+    color: #E3113D;
 }
