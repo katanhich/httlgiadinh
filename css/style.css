@@ -1,6 +1,6 @@
 * {
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     box-sizing: border-box;
 }
 
@@ -31,12 +31,12 @@ nav a {
 
 #container {
     padding: 20px;
-    width: 1263px;
+    width: 1000px;
 }
 
 .center {
     margin: 0 auto;
-    width: 1000px;
+    width: 80%;
 }
 
 #slider img {
@@ -48,6 +48,7 @@ nav a {
     background-color: #0F7AB2;
     height: 250px;
     border-radius: 5px;
+    /*position: relative;*/
 }
 
 footer {
@@ -56,7 +57,7 @@ footer {
 
 .footer-block {
     float: left;
-    width: 500px;
+    width: 380px;
     color: white;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -64,20 +65,32 @@ footer {
 }
 
 .event {
-    width: 245px;
+    width: 189px;
     float: left;
-    background-color: white;
     height: 100px;
-    border-radius: 5px;
-    margin-right: 5px;
+    margin-right: 4px;
     color: #0F7AB2;
     font-weight: bold;
     text-align: center;
+    position: relative;
+}
+
+#events .event div {
+    position:absolute;
+    top: -15px;
+    background-color: white;
+    width: 189px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.event:last-child {
+    margin-right: 0;
 }
 
 .main-event {
     float: left;
-    width: 333px;
+    width: 255px;
     color: white;
     text-align: center;
 }
@@ -88,7 +101,7 @@ footer {
 
 .gionhom {
     float: left;
-    width: 430px;
+    width: 360px;
 }
 
 .clearfix:after {
