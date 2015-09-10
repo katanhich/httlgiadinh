@@ -30,10 +30,8 @@ nav a {
 }
 
 #container {
+    padding: 20px;
     width: 1000px;
-    background-color: #F8FBFE;
-    margin-bottom: 20px;
-    margin-top: 20px;
 }
 
 .center {
@@ -50,6 +48,7 @@ nav a {
     background-color: #0F7AB2;
     height: 250px;
     border-radius: 5px;
+    /*position: relative;*/
 }
 
 footer {
@@ -74,6 +73,11 @@ footer {
     font-weight: bold;
     text-align: center;
     position: relative;
+	font-size: 14px;
+}
+
+.event div {
+	vertical-align: middle;
 }
 
 #events .event div {
@@ -134,22 +138,20 @@ footer {
 }
 
 .text-red {
-    color: #E3113D !important;
+    color: #E3113D;
 }
 
-.gionhom ul li {
-    margin-bottom: 15px;
-    color: #0f7ab2;
+.ul-header li  a{
+	color: #0F7AB2;
+    font-weight: bold;
+	font-size: 14px;	
 }
 
-.le-chu-nhat {
-    background-color: #E3113D;
-    color: white;
-    float: left;
-    margin-right: 7px;
-    border-radius: 5px;
-    text-align: center;
-    padding: 5px;
-    margin-top: 10px;
-    margin-bottom: 15px;
+.ul-header {
+	margin-bottom: 10px;
 }
+
+#img-header{
+	margin: 0 20px 0 20px;
+}
+
