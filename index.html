@@ -2,28 +2,50 @@
 <html lang="en">
 <link>
     <meta charset="UTF-8" />
-    <title></title>
+    <title>HTTL Gia Định</title>
     <link href="css/style.css" rel="stylesheet">
 
     <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+	
+	<script type="text/javascript" src="./js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="./js/jssor.slider.mini.js"></script>
+	<script type="text/javascript" src="./js/slider-option.js"></script>
+	<script type="text/javascript" src="./js/menu.js"></script>
 </head>
 <body>
 
 <div id="container">
     <nav class="center">
-        <ul>
-           <li><a href="#">TRANG CHU |</a></li>
-           <li><a href="#">MUC VU |</a></li>
-           <li><a href="#">THONG TIN |</a></li>
-           <li><a href="#">LIEN HE</a></li>
+        <ul class="ul-header">
+           <li><a href="#">TRANG CHỦ</a></li>
+		   <li>|</li>
+           <li><a href="#">MỤC VỤ</a></li>
+		   <img id="img-header" src="./images/head-image.jpg">
+           <li><a href="#">THÔNG TIN</a></li>
+		   <li>|</li>
+           <li><a href="#">LIÊN HỆ</a></li>
          </ul>
     </nav> 
 
     <div id="content">
         <div id="slider">
-            <img src="./images/silder.jpg">
+            <!-- <img src="./images/silder.jpg"> -->
+									
+			<!-- Jssor Slider Begin -->
+			<div id="sliderb_container" style="position: relative; top: 0px; left: 0px; width: 960px; height: 300px; overflow: hidden;">
+				<!-- Slides Container -->
+				<div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 960px; height: 300px; overflow: hidden;">
+					<div><img src="./images/landscape/a.jpg" /></div>
+					<div><img src="./images/landscape/b.jpg" /></div>
+					<div><img src="./images/landscape/c.jpg" /></div>
+					<div><img src="./images/landscape/d.jpg" /></div>
+					<div><img src="./images/landscape/e.jpg" /></div>
+					<div><img src="./images/landscape/f.jpg" /></div>
+				</div>																
+			</div>
+			<!-- Jssor Slider End -->	
         </div>
 
         <div class="center" id="events">
