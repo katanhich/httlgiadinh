@@ -8,7 +8,7 @@ body {
     margin: 0;
     padding: 0;
     text-align: left;
-    font-family: sans-serif, arial;
+    font-family: Avo;
 }
 
 nav {
@@ -84,6 +84,7 @@ footer {
     height: 100px;
     border-radius: 7px;
     box-shadow: 0px 2px 10px 0px #888888;
+	padding-top: 15px;
 }
 
 .event:last-child {
@@ -157,7 +158,8 @@ footer {
 .ul-header li  a{
 	color: #0F7AB2;
     font-weight: bold;
-	font-size: 14px;	
+	font-size: 13px;	
+	font-family: AvoBold;
 }
 
 .ul-header {
@@ -166,4 +168,71 @@ footer {
 
 #img-header{
 	margin: 0 20px 0 20px;
+}
+
+.logo-menu {
+	width: 55px;
+	height: 45px;
+}
+
+.lb-menu {
+	font-size: 13px;
+	font-family: AvoBold;
+}
+
+/* jssor slider bullet navigator skin 01 css */
+	.jssorb01 {
+		position: absolute;
+	}
+	.jssorb01 div, .jssorb01 div:hover, .jssorb01 .av {
+		position: absolute;
+		/* size of bullet elment */
+		width: 12px;
+		height: 12px;
+		filter: alpha(opacity=70);
+		opacity: .7;
+		overflow: hidden;
+		cursor: pointer;
+		border: #000 1px solid;
+	}
+	.jssorb01 div { background-color: gray; }
+	.jssorb01 div:hover, .jssorb01 .av:hover { background-color: #d3d3d3; }
+	.jssorb01 .av { background-color: #fff; }
+	.jssorb01 .dn, .jssorb01 .dn:hover { background-color: #555555; }
+	
+	
+@font-face {
+   font-family: Avo;
+   src: url(fonts/UTM_Avo.ttf);   
+}
+
+@font-face { 
+   font-family: AvoBold;
+   src: url(fonts/UTM_AvoBold.ttf);
+}
+
+@font-face { 
+   font-family: AvoItalic;
+   src: url(fonts/UTM_AvoItalic.ttf);
+}
+
+@font-face { 
+   font-family: AvoBoldItalic;
+   src: url(fonts/UTM_AvoBold_Italic.ttf);
+}
+
+.ul-ban-nganh {
+	list-style-type: none;
+}
+
+.logo-ban-nganh {
+	width: 65px;
+	height: 55px;
+}
+
+.ban-nganh {
+	text-align: center;
+	font-size: 13px;
+	font-family: AvoBold;
+	width: 33%;
 }

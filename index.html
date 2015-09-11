@@ -22,7 +22,7 @@
            <li><a href="#">TRANG CHỦ</a></li>
 		   <li>|</li>
            <li><a href="#">MỤC VỤ</a></li>
-		   <img id="img-header" src="./images/head-image.jpg">
+		   <li><img id="img-header" src="./images/header-image.jpg"></li>		   
            <li><a href="#">THÔNG TIN</a></li>
 		   <li>|</li>
            <li><a href="#">LIÊN HỆ</a></li>
@@ -31,10 +31,17 @@
 
     <div id="content">
         <div id="slider">
-            <!-- <img src="./images/silder.jpg"> -->
-									
+            
+			<!-- bullet navigator container -->
+        <div u="navigator" class="jssorb01" style="bottom: 16px; right: 10px;">
+            <!-- bullet navigator item prototype -->
+            <div u="prototype"></div>
+        </div>
+        <!--#endregion Bullet Navigator Skin End -->
+
+				
 			<!-- Jssor Slider Begin -->
-			<div id="sliderb_container" style="position: relative; top: 0px; left: 0px; width: 960px; height: 300px; overflow: hidden;">
+			<div id="sliderb_container" style="position: relative; top: 0px; left: 0px; width: 960px; height: 300px; overflow: hidden; border-radius: 10px;">
 				<!-- Slides Container -->
 				<div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 960px; height: 300px; overflow: hidden;">
 					<div><img src="./images/landscape/a.jpg" /></div>
@@ -43,31 +50,44 @@
 					<div><img src="./images/landscape/d.jpg" /></div>
 					<div><img src="./images/landscape/e.jpg" /></div>
 					<div><img src="./images/landscape/f.jpg" /></div>
-				</div>																
+				</div>
+     
+				<!-- bullet navigator container -->
+				<div u="navigator" class="jssorb01" style="bottom: 16px; right: 10px;">
+					<!-- bullet navigator item prototype -->
+					<div u="prototype"></div>
+				</div>
+				<!--#endregion Bullet Navigator Skin End -->
+        			
 			</div>
 			<!-- Jssor Slider End -->	
+
         </div>
 
         <div class="center" id="events">
             <div id="">
                 <div class="event">
                     <div>
-                        CHƯƠNG TRÌNH
+						<img class="logo-menu" src="./images/icon/trang-chu/chuong-trinh.png" /></br>
+                        <label class="lb-menu">CHƯƠNG TRÌNH</label>
                     </div>
                 </div>
                 <div class="event">
                     <div class="block-red">
-                        TÌM HIỂU VỀ CHÚA
+						<img class="logo-menu" src="./images/icon/trang-chu/tim-hieu-Chua.png" /></br>
+                        <label class="lb-menu">TÌM HIỂU VỀ CHÚA</label>
                     </div>
                 </div>
                 <div class="event">
                     <div>
-                        KẾT NỐI
+						<img class="logo-menu" src="./images/icon/trang-chu/ket-noi.png" /></br>
+                        <label class="lb-menu">KẾT NỐI</label>
                     </div>
                 </div>
                 <div class="event">
                     <div>
-                        BÀI GIẢNG ONLINE
+						<img class="logo-menu" src="./images/icon/trang-chu/bai-giang.png" /></br>
+                        <label class="lb-menu">BÀI GIẢNG ONLINE</label>
                     </div>
                 </div>
             </div>
@@ -112,9 +132,7 @@
                     </li>
                     <li>
                         <b>TRƯỜNG CHÚA NHẬT</b>
-                        <p>
-                            <b>CA 1:</b> 7:30-8:30&nbsp;&nbsp;<b>CA 2:</b> 7:30-8:30&nbsp;&nbsp;<b>CA 3:</b> 7:30-8:30
-                        </p>
+                        <p><b>CA 1:</b> 7:30-8:30&nbsp;&nbsp;<b>CA 2:</b> 7:30-8:30&nbsp;&nbsp;<b>CA 3:</b> 7:30-8:30</p>
                     </li>
                     <li>
                         <b>HỌC KINH THÁNH THỨ 5</b>
@@ -128,7 +146,42 @@
             </div>
 
             <div class="gionhom" id="ban-nganh">
-                hình ảnh cac ban ngành
+                <ul class="ul-ban-nganh">
+                    <li style="width:100%;"> 
+						<div class="ban-nganh">
+							<img class="logo-ban-nganh" src="./images/icon/ban-nganh/lao-nien.png" /></br>
+                            <b>LÃO NIÊN</b>
+                        </div>                                              
+                    </li>
+                    <li style="display:flex; width:100%">
+						<div class="ban-nganh">
+							<img class="logo-ban-nganh" src="./images/icon/ban-nganh/thanh-trang.png" /></br>
+                            <b>THANH TRÁNG</b>
+                        </div>
+                        <div class="ban-nganh">
+							<img class="logo-ban-nganh" src="./images/icon/ban-nganh/trang-nien.png" /></br>
+                            <b>TRÁNG NIÊN</b>
+                        </div>
+						<div class="ban-nganh">
+							<img class="logo-ban-nganh" src="./images/icon/ban-nganh/trung-nien.png" /></br>
+                            <b>TRUNG NIÊN</b>
+                        </div>
+                    </li>
+                    <li style="display:flex; width:100%">
+                        <div class="ban-nganh">
+							<img class="logo-ban-nganh" src="./images/icon/ban-nganh/thieu-nien.png" /></br>
+                            <b>THIẾU NIÊN</b>
+                        </div>
+                        <div class="ban-nganh">
+							<img class="logo-ban-nganh" src="./images/icon/ban-nganh/thieu-nhi.png" /></br>
+                            <b>THIẾU NHI</b>
+                        </div>
+						<div class="ban-nganh">
+							<img class="logo-ban-nganh" src="./images/icon/ban-nganh/thanh-nien.png" /></br>
+                            <b>THANH NIÊN</b>
+                        </div>                        
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
