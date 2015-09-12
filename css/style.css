@@ -50,6 +50,8 @@ nav a {
     background-color: #0F7AB2;
     height: 250px;
     border-radius: 5px;
+	box-shadow: 0px 2px 10px 0px #888888;
+	background-image: url("../images/hinh-thien-than.jpg"); 
 }
 
 footer {
@@ -66,10 +68,10 @@ footer {
 }
 
 .event {
-    width: 189px;
+    width: 191px;
     float: left;
     height: 100px;
-    margin-right: 4px;
+    margin-right: 10px;
     color: #0F7AB2;
     font-weight: bold;
     text-align: center;
@@ -80,11 +82,11 @@ footer {
     position:absolute;
     top: -15px;
     background-color: white;
-    width: 189px;
+    width: 197px;
     height: 100px;
     border-radius: 7px;
     box-shadow: 0px 2px 10px 0px #888888;
-	padding-top: 15px;
+	padding-top: 15px;	
 }
 
 .event:last-child {
@@ -106,7 +108,7 @@ footer {
     font-size: 14px;
 }
 
-.block-among-event {
+.block-center-event {
     text-align: center;
     font-size: 30px;
 }
@@ -118,6 +120,7 @@ footer {
 .gionhom {
     float: left;
     width: 360px;
+	font-family: AvoBold;
 }
 
 .clearfix:after {
@@ -146,13 +149,15 @@ footer {
 .le-chu-nhat {
     background-color: #E3113D;
     color: white;
-    float: left;
     margin-right: 7px;
-    border-radius: 5px;
+    border-radius: 10px;
     text-align: center;
     padding: 5px;
     margin-top: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
+    width: 90px;
+    display: inline-block;
+    font-size: 14px;
 }
 
 .ul-header li  a{
@@ -167,11 +172,15 @@ footer {
 }
 
 #img-header{
+	width: 200px;
+	height: 130px;
 	margin: 0 20px 0 20px;
+	box-shadow: 2px 2px 10px #ABABAB;
+	border-radius: 9px;
 }
 
 .logo-menu {
-	width: 55px;
+	width: 60px;
 	height: 45px;
 }
 
@@ -183,21 +192,29 @@ footer {
 /* jssor slider bullet navigator skin 01 css */
 	.jssorb01 {
 		position: absolute;
+		left: 46.2% !important;
+		top: 5px;
 	}
 	.jssorb01 div, .jssorb01 div:hover, .jssorb01 .av {
 		position: absolute;
 		/* size of bullet elment */
-		width: 12px;
-		height: 12px;
+		width: 5px;
+		height: 5px;
 		filter: alpha(opacity=70);
-		opacity: .7;
+		/* opacity: .7; */
 		overflow: hidden;
 		cursor: pointer;
-		border: #000 1px solid;
+		border-radius: 50%;
+		/* border: #000 1px solid; */
+		-moz-border-radius: 50px;
+		-webkit-border-radius: 50px;
 	}
-	.jssorb01 div { background-color: gray; }
+	.jssorb01 div { 
+		background-color: #095A95; 
+		
+	}
 	.jssorb01 div:hover, .jssorb01 .av:hover { background-color: #d3d3d3; }
-	.jssorb01 .av { background-color: #fff; }
+	.jssorb01 .av { background-color: #39B8CD; }
 	.jssorb01 .dn, .jssorb01 .dn:hover { background-color: #555555; }
 	
 	
@@ -223,6 +240,7 @@ footer {
 
 .ul-ban-nganh {
 	list-style-type: none;
+	margin: 15px 15px 0px 40px;
 }
 
 .logo-ban-nganh {
@@ -236,3 +254,29 @@ footer {
 	font-family: AvoBold;
 	width: 33%;
 }
+
+#logo-search {
+	width:130px;
+	height:100px;
+	
+}
+
+#location {
+	width: 20px;
+    height: 25px;
+}
+
+#search {
+	width: 40px;
+    height: 40px;
+	position: relative;
+    left: -610px;
+    top: -100px;
+	border-radius: 0px 10px 10px 0px;
+}
+
+.thoi-gian {
+	font-family: Avo;
+	font-size: 13px;
+}
+

@@ -22,7 +22,7 @@
            <li><a href="#">TRANG CHỦ</a></li>
 		   <li>|</li>
            <li><a href="#">MỤC VỤ</a></li>
-		   <li><img id="img-header" src="./images/header-image.jpg"></li>		   
+		   <li><img id="img-header" src="./images/icon/trang-chu/header-logo.png"></li>		   
            <li><a href="#">THÔNG TIN</a></li>
 		   <li>|</li>
            <li><a href="#">LIÊN HỆ</a></li>
@@ -30,41 +30,30 @@
     </nav> 
 
     <div id="content">
-        <div id="slider">
-            
-			<!-- bullet navigator container -->
-        <div u="navigator" class="jssorb01" style="bottom: 16px; right: 10px;">
-            <!-- bullet navigator item prototype -->
-            <div u="prototype"></div>
-        </div>
-        <!--#endregion Bullet Navigator Skin End -->
-
-				
+        <div id="slider">            				
 			<!-- Jssor Slider Begin -->
-			<div id="sliderb_container" style="position: relative; top: 0px; left: 0px; width: 960px; height: 300px; overflow: hidden; border-radius: 10px;">
+			<div id="sliderb_container" style="position: relative; top: 0px; left: 0px; width: 960px; height: 300px; overflow: hidden; border-radius: 7px;">
 				<!-- Slides Container -->
 				<div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 960px; height: 300px; overflow: hidden;">
-					<div><img src="./images/landscape/a.jpg" /></div>
-					<div><img src="./images/landscape/b.jpg" /></div>
-					<div><img src="./images/landscape/c.jpg" /></div>
-					<div><img src="./images/landscape/d.jpg" /></div>
-					<div><img src="./images/landscape/e.jpg" /></div>
-					<div><img src="./images/landscape/f.jpg" /></div>
+					<div><img src="./images/banner/a.jpg" /></div>
+					<div><img src="./images/banner/b.jpg" /></div>
+					<div><img src="./images/banner/c.jpg" /></div>
+					<div><img src="./images/banner/d.jpg" /></div>
+					<div><img src="./images/banner/e.jpg" /></div>
+					<div><img src="./images/banner/f.jpg" /></div>
 				</div>
-     
+				<div style="background-color:#EDF1EF; position:relative; height:15px; opacity: 0.5;"></div>	 
 				<!-- bullet navigator container -->
-				<div u="navigator" class="jssorb01" style="bottom: 16px; right: 10px;">
+				<div u="navigator" class="jssorb01" style="">
 					<!-- bullet navigator item prototype -->
 					<div u="prototype"></div>
 				</div>
-				<!--#endregion Bullet Navigator Skin End -->
-        			
+				<!--#endregion Bullet Navigator Skin End -->       			
 			</div>
 			<!-- Jssor Slider End -->	
-
         </div>
 
-        <div class="center" id="events">
+        <div class="center" id="events">					
             <div id="">
                 <div class="event">
                     <div>
@@ -90,15 +79,16 @@
                         <label class="lb-menu">BÀI GIẢNG ONLINE</label>
                     </div>
                 </div>
-            </div>
-
+            </div>			
+			
             <div id="main-events">
+								
                 <div class="main-event block-left-event">
                     <p>đức tin đi theo cảm xúc và đức tin thật</p>
                     <br>
                     <p>thông báo</p>
                 </div>
-                <div class="main-event block-among-event">
+                <div class="main-event block-center-event">
                     <p>những sự kiện</p>
                     <p>nổi bật</p>
                 </div>
@@ -106,8 +96,10 @@
                     <p>đền thờ mới</p>
                     <br>
                     <p>chương trình sinh hoạt thanh niên</p>
-                </div>
+                </div>								
             </div>
+			
+			<img id="search" src="./images/icon/trang-chu/search.png" />
         </div>
 
         <div class="center clearfix" id="content-3">
@@ -118,34 +110,42 @@
                             <b>THỜ PHƯỢNG CHÚA NHẬT</b>
                         </div>
                         <div class="le-chu-nhat">
-                            <p><b>LE 1</b></p>
-                            <p>6:00 - 7:00</p>
+                            <p>LỄ 1</p>
+                            <p><span class="thoi-gian">6:00 - 7:00</span></p>
                         </div>
                         <div class="le-chu-nhat">
-                            <p><b>LE 2</b></p>
-                            <p>8:30 - 10:00</p>
+                            <p>LỄ 2</p>
+                            <p><span class="thoi-gian">8:30 - 10:00</span></p>
                         </div>
                         <div class="le-chu-nhat">
-                            <p><b>LE 3</b></p>
-                            <p>19:30 - 20:30</p>
-                        </div>
+                            <p>LỄ 3</p>
+                            <p><span class="thoi-gian">19:30 - 20:30</span></p>
+                        </div> 
                     </li>
                     <li>
                         <b>TRƯỜNG CHÚA NHẬT</b>
-                        <p><b>CA 1:</b> 7:30-8:30&nbsp;&nbsp;<b>CA 2:</b> 7:30-8:30&nbsp;&nbsp;<b>CA 3:</b> 7:30-8:30</p>
+                        <p>
+							<b style="font-size:14px;">CA 1:</b><span class="thoi-gian"> 7:30-8:30</span>&nbsp;&nbsp;
+							<b style="font-size:14px;">CA 2:</b><span class="thoi-gian"> 7:30-8:30</span>&nbsp;&nbsp;
+							<b style="font-size:14px;">CA 3:</b><span class="thoi-gian"> 7:30-8:30</span>
+						</p>
                     </li>
                     <li>
                         <b>HỌC KINH THÁNH THỨ 5</b>
-                        <p>19:30 - 21:00</p>
+                        <p><span class="thoi-gian">19:30 - 21:00</span></p>
                     </li>
                     <li>
                         <b>TRUYỀN GIẢNG THỨ 6</b>
-                        <p>19:00 - 20:30</p>
+                        <p><span class="thoi-gian">19:00 - 20:30</span></p>
                     </li>
                 </ul>
+				<div>
+					<img id="location" src="./images/icon/trang-chu/location.png" /> 
+					<span style="font-family: AvoItalic; font-size:12px; color: #0F7AB2;">HƯỚNG DẪN ĐẾN NHÀ THỜ TIN LÀNH GIA ĐỊNH</span>
+				</div>
             </div>
 
-            <div class="gionhom" id="ban-nganh">
+            <div class="gionhom">
                 <ul class="ul-ban-nganh">
                     <li style="width:100%;"> 
 						<div class="ban-nganh">
