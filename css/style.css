@@ -285,7 +285,7 @@ footer {
 #search {
 	width: 40px;
     height: 40px;
-	position: absolute;
+	position: relative;
     left: 174px;
     bottom: 80px;
 	border-radius: 0px 10px 10px 0px;
