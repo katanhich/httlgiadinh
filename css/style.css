@@ -9,6 +9,7 @@ body {
     padding: 0;
     text-align: left;
     font-family: Avo;
+    color: #2f5593;
 }
 
 nav {
@@ -31,9 +32,9 @@ nav a {
 
 #container {
     width: 1000px;
-    background-color: #F8FBFE;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    background-color: #F9FDFF;
+    /*margin-bottom: 20px;*/
+    /*margin-top: 20px;*/
 }
 
 .center {
@@ -47,7 +48,7 @@ nav a {
 }
 
 #events {
-    background-color: #0F7AB2;
+    background-color: #EFEFF2;
     height: 250px;
     border-radius: 5px;
 	box-shadow: 0px 2px 10px 0px #888888;
@@ -55,7 +56,7 @@ nav a {
 }
 
 footer {
-    background-color: #0F7AB2;
+    background-color: #3B74B0;
 }
 
 .footer-block {
@@ -67,12 +68,20 @@ footer {
     font-size: 12px;
 }
 
+#address {
+    font-family: AvoBold;
+}
+
+#contact {
+    padding-left: 40px;
+}
+
 .event {
     width: 191px;
     float: left;
     height: 100px;
     margin-right: 10px;
-    color: #0F7AB2;
+    color: #2F5593;
     font-weight: bold;
     text-align: center;
     position: relative;
@@ -94,18 +103,13 @@ footer {
 }
 
 #main-events {
-    padding-top: 130px;
+    padding: 105px 30px 0 30px;
 }
 
 .main-event {
     float: left;
-    width: 255px;
-    color: white;
-}
-
-.block-left-event {
-    padding-left: 25px;
-    font-size: 14px;
+    font-size: 13px;
+    width: 267px;
 }
 
 .block-center-event {
@@ -119,7 +123,7 @@ footer {
 
 .gionhom {
     float: left;
-    width: 360px;
+    width: 380px;
 	font-family: AvoBold;
 }
 
@@ -143,7 +147,7 @@ footer {
 
 .gionhom ul li {
     margin-bottom: 15px;
-    color: #0f7ab2;
+    color: #2F5593;
 }
 
 .le-chu-nhat {
@@ -161,7 +165,7 @@ footer {
 }
 
 .ul-header li  a{
-	color: #0F7AB2;
+	color: #2F5593;
     font-weight: bold;
 	font-size: 13px;	
 	font-family: AvoBold;
@@ -185,37 +189,37 @@ footer {
 }
 
 .lb-menu {
-	font-size: 13px;
+	font-size: 14px;
 	font-family: AvoBold;
 }
 
 /* jssor slider bullet navigator skin 01 css */
-	.jssorb01 {
-		position: absolute;
-		left: 46.2% !important;
-		top: 5px;
-	}
-	.jssorb01 div, .jssorb01 div:hover, .jssorb01 .av {
-		position: absolute;
-		/* size of bullet elment */
-		width: 5px;
-		height: 5px;
-		filter: alpha(opacity=70);
-		/* opacity: .7; */
-		overflow: hidden;
-		cursor: pointer;
-		border-radius: 50%;
-		/* border: #000 1px solid; */
-		-moz-border-radius: 50px;
-		-webkit-border-radius: 50px;
-	}
-	.jssorb01 div { 
-		background-color: #095A95; 
-		
-	}
-	.jssorb01 div:hover, .jssorb01 .av:hover { background-color: #d3d3d3; }
-	.jssorb01 .av { background-color: #39B8CD; }
-	.jssorb01 .dn, .jssorb01 .dn:hover { background-color: #555555; }
+.jssorb01 {
+	position: absolute;
+	left: 46.2% !important;
+	top: 5px;
+}
+.jssorb01 div, .jssorb01 div:hover, .jssorb01 .av {
+	position: absolute;
+	/* size of bullet elment */
+	width: 5px;
+	height: 5px;
+	filter: alpha(opacity=70);
+	/* opacity: .7; */
+	overflow: hidden;
+	cursor: pointer;
+	border-radius: 50%;
+	/* border: #000 1px solid; */
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+}
+.jssorb01 div { 
+	background-color: #095A95; 
+	
+}
+.jssorb01 div:hover, .jssorb01 .av:hover { background-color: #d3d3d3; }
+.jssorb01 .av { background-color: #39B8CD; }
+.jssorb01 .dn, .jssorb01 .dn:hover { background-color: #555555; }
 	
 	
 @font-face {
@@ -240,7 +244,7 @@ footer {
 
 .ul-ban-nganh {
 	list-style-type: none;
-	margin: 15px 15px 0px 40px;
+	margin: 28px 15px 0px 40px;
 }
 
 .logo-ban-nganh {
@@ -250,7 +254,7 @@ footer {
 
 .ban-nganh {
 	text-align: center;
-	font-size: 13px;
+	font-size: 11px;
 	font-family: AvoBold;
 	width: 33%;
 }
@@ -269,9 +273,9 @@ footer {
 #search {
 	width: 40px;
     height: 40px;
-	position: relative;
-    left: -610px;
-    top: -100px;
+	position: absolute;
+    left: 174px;
+    bottom: 80px;
 	border-radius: 0px 10px 10px 0px;
 }
 
@@ -280,3 +284,13 @@ footer {
 	font-size: 13px;
 }
 
+.ca-tho-phuong {
+    font-family: AvoBold;
+    font-size: 12px;
+}
+
+.infor {
+    font-family: AvoItalic; 
+    font-size:12px; 
+    color: #2f5593;
+}
