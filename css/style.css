@@ -9,7 +9,7 @@ body {
     padding: 0;
     text-align: left;
     font-family: Avo;
-    color: #2f5593;
+    color: #095A95;
 }
 
 nav {
@@ -32,9 +32,9 @@ nav a {
 
 #container {
     width: 1000px;
-    background-color: #F9FDFF;
-    /*margin-bottom: 20px;*/
-    /*margin-top: 20px;*/
+    background-color: #F9FCFF;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .center {
@@ -48,8 +48,7 @@ nav a {
 }
 
 #events {
-    background-color: #EFEFF2;
-    /*height: 240px;*/
+    background-color: #0F7AB2;
     border-radius: 5px;
 	box-shadow: 0px 2px 10px 0px #888888;
 	background-image: url("../images/hinh-thien-than.jpg"); 
@@ -63,10 +62,11 @@ nav a {
 #list-main-events {
     overflow: auto;
     height: 105px;
+    padding-left: 44px;
 }
 
 footer {
-    background-color: #3B74B0;
+    background-color: #0F7AB2;
 }
 
 .footer-block {
@@ -91,8 +91,7 @@ footer {
     float: left;
     height: 100px;
     margin-right: 10px;
-    color: #2F5593;
-    font-weight: bold;
+    /*color: white;*/
     text-align: center;
     position: relative;
 }
@@ -113,15 +112,14 @@ footer {
 }
 
 #main-events {
-    padding-top: 105px;
+    padding-top: 120px;
+    /*padding-left: 45px;*/
+    color: white;
 }
 
 .main-event {
     float: left;
     font-size: 13px;
-    width: 255px;
-    height: 50px;
-    padding-left: 25px;
 }
 
 .block-center-event {
@@ -159,7 +157,7 @@ footer {
 
 .gionhom ul li {
     margin-bottom: 15px;
-    color: #2F5593;
+    color: #095A95;
 }
 
 .le-chu-nhat {
@@ -173,12 +171,11 @@ footer {
     margin-bottom: 5px;
     width: 90px;
     display: inline-block;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .ul-header li  a{
-	color: #2F5593;
-    font-weight: bold;
+	color: #095A95;
 	font-size: 13px;	
 	font-family: AvoBold;
 }
@@ -201,7 +198,7 @@ footer {
 }
 
 .lb-menu {
-	font-size: 14px;
+	font-size: 13px;
 	font-family: AvoBold;
 }
 
