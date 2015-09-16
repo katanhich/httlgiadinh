@@ -92,7 +92,6 @@ footer {
     height: 100px;
     margin-right: 10px;
     color: #2F5593;
-    font-weight: bold;
     text-align: center;
     position: relative;
 }
@@ -173,12 +172,11 @@ footer {
     margin-bottom: 5px;
     width: 90px;
     display: inline-block;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .ul-header li  a{
 	color: #2F5593;
-    font-weight: bold;
 	font-size: 13px;	
 	font-family: AvoBold;
 }
@@ -201,7 +199,7 @@ footer {
 }
 
 .lb-menu {
-	font-size: 14px;
+	font-size: 13px;
 	font-family: AvoBold;
 }
 
