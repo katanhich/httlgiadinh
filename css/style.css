@@ -16,13 +16,23 @@ nav {
     text-align: center;
 }
 
-nav ul  {
+nav ul {
     margin:0;
     padding:0;
 }
 
 nav ul li {
-    display:inline; 
+    position: relative;
+}
+
+nav ul:after {
+    content: ""; 
+    clear: both; 
+    display: block;
+}
+
+nav ul li {
+    display: inline-table; 
     margin:5px;
 }
 
@@ -30,11 +40,56 @@ nav a {
     text-decoration: none;
 }
 
+nav ul li:hover a {
+    color: #e80b2f;
+}
+
+.sub-menu {
+    display: none;
+    background-color: white;
+    position: absolute; 
+    top: 32px;
+    left: -20px;
+    z-index: 1;
+    width: 250px;
+    padding: 15px;
+    text-align: left;
+    opacity: 0.9;
+}
+
+.sub-menu div {
+    float: left;
+    margin-right: 10px;
+}
+
+.sub-menu div:last-child {
+    margin-right: 0px;
+}
+
+.sub-menu div h3 {
+    color: black;
+    font-size: 13px;
+}
+
+.sub-menu div a {
+    font-size: 11px;
+    width: 100px;
+    padding-top: 13px;
+    display: block;
+    font-family: Avo !important;
+}
+
+.sub-menu div a:hover {
+    font-family: AvoBold !important;
+}
+
+nav ul li:hover > .sub-menu {
+    display: block;
+}
+
 #container {
     width: 1000px;
     background-color: #F9FCFF;
-    margin-bottom: 20px;
-    margin-top: 20px;
 }
 
 .center {
@@ -44,14 +99,14 @@ nav a {
 
 #slider img {
     width: 100%;
-    height: 300px;
+    height: 328px;
 }
 
 #events {
     background-color: #0F7AB2;
     border-radius: 5px;
 	box-shadow: 0px 2px 10px 0px #888888;
-	background-image: url("../images/hinh-thien-than.jpg"); 
+	background-image: url("../images/hinh-thien-than.png"); 
 }
 
 .title-events {
@@ -62,7 +117,7 @@ nav a {
 #list-main-events {
     overflow: auto;
     height: 105px;
-    padding-left: 44px;
+    padding-left: 30px;
 }
 
 footer {
@@ -75,11 +130,12 @@ footer {
     color: white;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: 12px;
+    font-size: 11px;
 }
 
 #address {
     font-family: AvoBold;
+    font-size: 12px;
 }
 
 #contact {
@@ -89,15 +145,13 @@ footer {
 .event {
     width: 191px;
     float: left;
-    height: 100px;
+    height: 110px;
     margin-right: 10px;
-    /*color: white;*/
     text-align: center;
-    position: relative;
 }
 
 #events .event div {
-    position:absolute;
+    position:relative;
     top: -15px;
     background-color: white;
     width: 197px;
@@ -113,13 +167,17 @@ footer {
 
 #main-events {
     padding-top: 120px;
-    /*padding-left: 45px;*/
     color: white;
 }
 
 .main-event {
     float: left;
-    font-size: 13px;
+    font-size: 12px;
+    width: 246px; 
+}
+
+.main-event div {
+    height: 50px;
 }
 
 .block-center-event {
@@ -198,7 +256,7 @@ footer {
 }
 
 .lb-menu {
-	font-size: 13px;
+	font-size: 14px;
 	font-family: AvoBold;
 }
 
@@ -253,7 +311,7 @@ footer {
 
 .ul-ban-nganh {
 	list-style-type: none;
-	margin: 28px 15px 0px 40px;
+	margin: 16px 15px 0px 40px;
 }
 
 .logo-ban-nganh {
@@ -268,12 +326,6 @@ footer {
 	width: 33%;
 }
 
-#logo-search {
-	width:130px;
-	height:100px;
-	
-}
-
 #location {
 	width: 20px;
     height: 25px;
@@ -282,9 +334,9 @@ footer {
 #search {
 	width: 40px;
     height: 40px;
-	position: relative;
-    left: 174px;
-    bottom: 80px;
+	position: absolute;
+    left: 0px;
+    top: 385px;
 	border-radius: 0px 10px 10px 0px;
 }
 
@@ -301,5 +353,4 @@ footer {
 .infor {
     font-family: AvoItalic; 
     font-size:12px; 
-    color: #2f5593;
 }

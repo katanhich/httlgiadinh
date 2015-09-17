@@ -24,15 +24,35 @@
         <ul class="ul-header">
            <li><a href="#">TRANG CHỦ</a></li>
 		   <li>|</li>
-           <li><a href="#">MỤC VỤ</a></li>
+           <li>
+                <a href="#">MỤC VỤ</a>
+                <div class="sub-menu">
+                    <div>
+                        <h3>Truyền Giáo</h3>
+                        <a href="#">Truyền Giảng</a>
+                        <a href="#">Chứng Đạo</a>
+                        <a href="#">Huấn Luyện</a>
+                        <a href="#">Chăm Sóc Tân Tín Hữu</a>
+                        <a href="#">Giáo Lý Báp-Tem</a>
+                    </div>
+                    <div>
+                        <h3>Phục Vụ</h3>
+                        <a href="#">Mục vụ tư Vấn</a>
+                    </div>
+                </div>
+           </li>
 		   <li><img id="img-header" src="./images/icon/trang-chu/header-logo.png"></li>		   
-           <li><a href="#">THÔNG TIN</a></li>
+           <li>
+                <a href="#">THÔNG TIN</a>
+           </li>
 		   <li>|</li>
            <li><a href="#">LIÊN HỆ</a></li>
          </ul>
     </nav> 
 
-    <div id="content">
+    <div style="position:relative" id="content">
+        <a href="#"><img id="search" src="./images/icon/trang-chu/search.png" /></a>
+
         <div id="slider">            				
 			<!-- Jssor Slider Begin -->
 			<div id="sliderb_container" style="position: relative; top: 0px; left: 0px; width: 1000px; height: 300px; overflow: hidden;">
@@ -57,8 +77,7 @@
         </div>
 
         <div class="center" id="events">		
-            <!-- <a href="#"><img id="search" src="./images/icon/trang-chu/search.png" /></a> -->			
-            <div id="">
+            <div>
                 <div class="event">
                     <div>
 						<img class="logo-menu" src="./images/icon/trang-chu/chuong-trinh.png" /></br>
@@ -87,7 +106,7 @@
 			
             <div id="main-events">
                 <div id="list-main-events" class="mCustomScrollbar">
-                    <div class="main-event" style="width: 250px;">
+                    <div class="main-event">
                         <div>
                             Ngay 16/07/2015 - Dức Tin Theo Cảm Xúc Và Dức Tin Thật
                         </div>
@@ -110,11 +129,11 @@
                             chương trình sinh hoạt thanh niên 19/07/2015
                         </div>   
                     </div>
-                    <div class="main-event" style="width: 200px; text-align:center">
-                        <p style="font-family: AvoBold; font-size: 17px;">NHUNG SU KIEN</p>
-                        <p style="font-family: AvoBold; font-size: 34px;">NOI BAT</p>
+                    <div class="main-event" style="text-align:center">
+                        <p style="font-family: AvoBold; font-size: 16px;">NHỮNG SỰ KIỆN</p>
+                        <p style="font-family: AvoBold; font-size: 31px;">NỔI BẬT</p>
                     </div>
-                    <div class="main-event" style="width: 260px;">
+                    <div class="main-event">
                         <div>
                             Ngay 16/07/2015 - Dức Tin Theo Cảm Xúc Và Dức Tin Thật
                         </div>
@@ -154,7 +173,7 @@
                         </div>
                         <div class="le-chu-nhat">
                             <p>LỄ 2</p>
-                            <p><span class="thoi-gian">8:30 - 10:00</span></p>
+                            <p><span class="thoi-gian">8:30 - 10:30</span></p>
                         </div>
                         <div class="le-chu-nhat">
                             <p>LỄ 3</p>
@@ -164,9 +183,9 @@
                     <li>
                         <div class="lb-menu">TRƯỜNG CHÚA NHẬT</div>
                         <p>
-							<span class="ca-tho-phuong">CA 1:</span><span class="thoi-gian"> 7:30-8:30</span>&nbsp;&nbsp;
-							<span class="ca-tho-phuong">CA 2:</span><span class="thoi-gian"> 7:30-8:30</span>&nbsp;&nbsp;
-							<span class="ca-tho-phuong">CA 3:</span><span class="thoi-gian"> 7:30-8:30</span>
+							<span class="ca-tho-phuong">CA 1:</span><span class="thoi-gian"> 7:30-8:20</span>&nbsp;&nbsp;
+							<span class="ca-tho-phuong">CA 2:</span><span class="thoi-gian"> 10:30-11:20</span>&nbsp;&nbsp;
+                            <span class="ca-tho-phuong">CA 3:</span><span class="thoi-gian"> 18:30-19:20</span>
 						</p>
                     </li>
                     <li>
@@ -188,17 +207,9 @@
                 <ul class="ul-ban-nganh">
                     <li style="display:flex; width:100%">
                         <div class="ban-nganh">
-                            <img class="logo-ban-nganh" src="./images/icon/ban-nganh/thieu-nhi.png" /></br>
-                            <b>THIẾU NHI</b>
+                            <img class="logo-ban-nganh" src="./images/icon/ban-nganh/lao-nien.png" /></br>
+                            LÃO NIÊN
                         </div>
-                        <div class="ban-nganh">
-							<img class="logo-ban-nganh" src="./images/icon/ban-nganh/thieu-nien.png" /></br>
-                            THIẾU NIÊN
-                        </div>
-						<div class="ban-nganh">
-							<img class="logo-ban-nganh" src="./images/icon/ban-nganh/thanh-nien.png" /></br>
-                            THANH NIÊN
-                        </div>                        
                     </li>
                     <li style="display:flex; width:100%">
                         <div class="ban-nganh">
@@ -211,8 +222,22 @@
                         </div>
                         <div class="ban-nganh">
                             <img class="logo-ban-nganh" src="./images/icon/ban-nganh/trung-nien.png" /></br>
-                            <b>TRUNG LÃO NIÊN</b>
+                            TRUNG NIÊN
                         </div>
+                    </li>
+                    <li style="display:flex; width:100%">
+                        <div class="ban-nganh">
+                            <img class="logo-ban-nganh" src="./images/icon/ban-nganh/thieu-nhi.png" /></br>
+                            THIẾU NHI
+                        </div>
+                        <div class="ban-nganh">
+							<img class="logo-ban-nganh" src="./images/icon/ban-nganh/thieu-nien.png" /></br>
+                            THIẾU NIÊN
+                        </div>
+						<div class="ban-nganh">
+							<img class="logo-ban-nganh" src="./images/icon/ban-nganh/thanh-nien.png" /></br>
+                            THANH NIÊN
+                        </div>                        
                     </li>
                 </ul>
             </div>
