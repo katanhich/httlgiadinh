@@ -37,8 +37,9 @@ nav ul li {
     margin:5px;
 }
 
-nav a {
+a {
     text-decoration: none;
+    color: #095A95;
 }
 
 nav ul li:hover > a {
@@ -148,6 +149,7 @@ footer {
     height: 110px;
     margin-right: 10px;
     text-align: center;
+    cursor: pointer;
 }
 
 #events .event div {
@@ -206,6 +208,10 @@ footer {
 
 .block-red {
     background-color: #E3113D !important;
+    color: white;
+}
+
+.text-white {
     color: white;
 }
 
@@ -353,4 +359,8 @@ footer {
 .infor {
     font-family: AvoItalic; 
     font-size:12px; 
+}
+
+.main-event div > a {
+    color: white;
 }
