@@ -10,6 +10,7 @@ body {
     text-align: left;
     font-family: Avo;
     color: #095A95;
+    background-color: #F9FCFF;
 }
 
 nav {
@@ -89,7 +90,6 @@ nav ul li:hover > .sub-menu {
 
 #container {
     width: 1000px;
-    background-color: #F9FCFF;
 }
 
 .center {
