@@ -155,7 +155,7 @@ footer {
 #events .event div {
     position:relative;
     top: -15px;
-    background-color: white;
+    background-color: #fff;
     width: 197px;
     height: 100px;
     border-radius: 7px;
@@ -163,6 +163,21 @@ footer {
 	padding-top: 15px;	
 }
 
+#events .event div a:hover {
+    background-color: #fff;
+    opacity: 0.7;
+}
+
+.event .block-red a:hover {
+    background-color: #E3113D !important;
+    opacity: 0.7;
+}
+
+/*#events .event div a span:hover {
+    background-color: #fff;
+    opacity: 0.7;
+}
+*/
 .event:last-child {
     margin-right: 0;
 }
@@ -330,6 +345,11 @@ footer {
 	font-size: 11px;
 	font-family: AvoBold;
 	width: 33%;
+}
+
+.ban-nganh:hover {
+    background-color: #fff;
+    opacity: 0.7;
 }
 
 #location {
