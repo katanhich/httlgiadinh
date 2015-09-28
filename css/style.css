@@ -140,7 +140,7 @@ footer {
 }
 
 #contact {
-    padding-left: 40px;
+    padding-left: 75px;
 }
 
 .event {
@@ -163,21 +163,16 @@ footer {
 	padding-top: 15px;	
 }
 
-#events .event div a:hover {
+.event:hover div a {
     background-color: #fff;
     opacity: 0.7;
 }
 
-.event .block-red a:hover {
-    background-color: #E3113D !important;
+.event:hover .block-red a {
+    background-color: #E3113D;
     opacity: 0.7;
 }
 
-/*#events .event div a span:hover {
-    background-color: #fff;
-    opacity: 0.7;
-}
-*/
 .event:last-child {
     margin-right: 0;
 }
