@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+    <meta charset="UTF-8" />
+    <title>HTTL Gia Định</title>
+    <link href="./plugins/scrollbar/jquery.mCustomScrollbar.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	
+    <script type="text/javascript" src="./js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="./plugins/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script type="text/javascript" src="./js/jssor.slider.mini.js"></script>
+	<script type="text/javascript" src="./js/slider-option.js"></script>
+	<script type="text/javascript" src="./js/menu.js"></script>
+
+</head>
+<body>
+
+<div id="container">
+    <nav class="center">
+        <ul class="ul-header">
+           <li><a href="#">TRANG CHỦ</a></li>
+		   <li>|</li>
+           <li>
+                <a href="#">MỤC VỤ</a>
+                <div class="sub-menu">
+                    <div>
+                        <h3>Truyền Giáo</h3>
+                        <a href="#">Truyền Giảng</a>
+                        <a href="#">Chứng Đạo</a>
+                        <a href="#">Huấn Luyện</a>
+                        <a href="#">Chăm Sóc Tân Tín Hữu</a>
+                        <a href="#">Giáo Lý Báp-Tem</a>
+                    </div>
+                    <div>
+                        <h3>Phục Vụ</h3>
+                        <a href="#">Mục vụ tư Vấn</a>
+                    </div>
+                </div>
+           </li>
+		   <li><a href="#"><img id="img-header" src="./images/icon/trang-chu/header-logo.jpeg"></a></li>		   
+           <li>
+                <a href="#">THÔNG TIN</a>
+           </li>
+		   <li>|</li>
+           <li><a href="#">LIÊN HỆ</a></li>
+         </ul>
+    </nav> 
+
+    <div style="position:relative" id="content">
+        <a href="#"><img id="search" src="./images/icon/trang-chu/search.png" /></a>
+
+        <div id="slider">            				
+			<!-- Jssor Slider Begin -->
+			<div id="sliderb_container" style="position: relative; top: 0px; left: 0px; width: 1000px; height: 325px; overflow: hidden;">
+				<!-- Slides Container -->
+				<div u="slides" style="cursor: move; position: absolute; left: 0px; top: 19px; width: 1000px; height: 300px; overflow: hidden;">
+					<div><img src="./images/banner/a.jpg" /></div>
+					<div><img src="./images/banner/b.jpg" /></div>
+					<div><img src="./images/banner/c.jpg" /></div>
+					<div><img src="./images/banner/d.jpg" /></div>
+					<div><img src="./images/banner/e.jpg" /></div>
+					<div><img src="./images/banner/f.jpg" /></div>
+				</div>
+                
+				<div style="background-color:#EDF1EF; position:relative; height:20px;"></div>	 
+				<!-- bullet navigator container -->
+				<div u="navigator" class="jssorb01" style="">
+					<!-- bullet navigator item prototype -->
+					<div u="prototype"></div>
+				</div>
+				<!--#endregion Bullet Navigator Skin End -->       			
+			</div>
+			<!-- Jssor Slider End -->	
+        </div>
+
+        <!-- start main body -->
+        <div id="main-body" class="center">
+            <nav>
+                <ul class="ul-header">
+                   <li><a href="#">THONG BAO</a></li>
+                   <li><a href="#">LICH SINH HOAT</a></li>
+                   <li><a href="#">CAU NGUYEN</a></li>
+                   <li><a href="#">DUONG LINH</a></li>
+                   <li><a href="#">DOI SONG THANH NIEN</a></li>
+                   <li><a href="#">SINH HOAT & TDTT</a></li>
+                 </ul>
+            </nav> 
+
+            <div class="title">
+                GIOI THIEU BAN THANH NIEN
+            </div>
+
+            <div class="main-content"></div>
+        </div>
+        <!-- end main body -->
+    </div>
+
+    <footer class="clearfix">
+        <div class="center">
+            <div class="footer-block">
+                <p id="address">HỘI THÁNH TIN LÀNH VIỆT NAM (VN) - CHI HỘI GIA ĐỊNH</p>
+                <p>109 Phan Đang Lưu, Phường 7, Quận Phú Nhuận, Tp.Hồ Chí Minh</p>
+            </div>
+
+            <div class="footer-block" id="contact">
+                <p>Điện thoại: (08) 39901629</p>
+                <p><a class="text-white" href="mailto:httlgiadinh@gmail.com">Email: httlgiadinh@gmail.com</a></p>
+            </div>
+        </div>
+    </footer> 
+</div>
+
+</body>
+</html>

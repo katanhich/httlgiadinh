@@ -207,10 +207,6 @@ footer {
     font-size: 30px;
 }
 
-#content-3 {
-    padding: 20px;
-}
-
 .gionhom {
     float: left;
     width: 380px;
@@ -386,3 +382,30 @@ footer {
     font-size:12px; 
 }
 
+#main-body .ul-header li > a{
+    font-size: 11px;    
+}
+
+#main-body nav {
+    position:relative;
+    top: -15px;
+    background-color: #fff;
+    height: 45px;
+    border-radius: 5px;
+    box-shadow: 3px 4px 4px 0 #888888;
+    padding-top: 10px;  
+}
+
+#main-body .ul-header li {
+    margin: 20px;
+}
+
+#main-body .title {
+    color: #002132;
+    font-family: AvoBold;
+    font-size: 23px;
+}
+
+.main-content {
+    min-height: 300px;
+}
