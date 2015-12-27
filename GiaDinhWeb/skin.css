@@ -1,4 +1,4 @@
-* {
+﻿* {
     padding: 0;
     margin: 0 auto;
     box-sizing: border-box;
@@ -22,10 +22,6 @@ nav ul {
     padding:0;
 }
 
-nav ul li {
-    position: relative;
-}
-
 nav ul:after {
     content: ""; 
     clear: both; 
@@ -46,21 +42,36 @@ nav ul li:hover > a {
     color: #e80b2f;
 }
 
+ul {
+    margin: 0;
+    list-style: outside none disc !important;
+}
+
+#container #content {
+    position: relative;
+}
+
 .sub-menu {
     display: none;
     background-color: white;
     position: absolute; 
-    left: -20px;
     z-index: 1;
-    width: 250px;
-    padding: 15px;
+    padding: 15px 30px;
     text-align: left;
-    opacity: 0.9;
+    width: 100%;
+    left: 0px;
+    top: 114px;
+    box-shadow: 0px 3px 5px 0px #888888;
 }
 
-.sub-menu div {
+.sub-menu > div {
     float: left;
-    margin-right: 10px;
+    min-width: 200px;
+}
+
+.sub-menu > div > div {
+    min-width: 155px;
+    float: left;
 }
 
 .sub-menu div:last-child {
@@ -72,9 +83,8 @@ nav ul li:hover > a {
     font-size: 13px;
 }
 
-.sub-menu > div > a {
+.sub-menu  div  a {
     font-size: 11px;
-    width: 100px;
     padding-top: 13px;
     display: block;
     font-family: Avo;
@@ -91,6 +101,8 @@ nav ul li:hover > .sub-menu {
 
 #container {
     width: 1000px;
+	margin: 0 auto;
+    position: relative;
 }
 
 .center {
@@ -105,7 +117,7 @@ nav ul li:hover > .sub-menu {
 #events {
     border-radius: 5px;
 	box-shadow: 0px 2px 10px 0px #888888;
-	background: #0F7AB2 url("../images/hinh-thien-than.jpeg") top left no-repeat; 
+	background: #0F7AB2 url("./images/hinh-thien-than.jpeg") top left no-repeat; 
 }
 
 .title-events {
@@ -117,7 +129,6 @@ nav ul li:hover > .sub-menu {
     overflow: auto;
     height: 105px;
     padding-left: 30px;
-    /*padding-top: 5px;*/
 }
 
 footer {
@@ -192,14 +203,19 @@ footer {
 .main-event {
     font-size: 13px;
     width: 250px; 
-}
-
-.main-event div {
     height: 50px;
 }
 
-.main-event div > a {
+.main-event a {
     color: white;
+}
+
+div.main-event:nth-child(even) {
+    float: right;
+}
+
+div.main-event:nth-child(odd) {
+    float: left;
 }
 
 .block-center-event {
@@ -258,6 +274,15 @@ footer {
 	color: #095A95;
 	font-size: 13px;	
 	font-family: AvoBold;
+    vertical-align: unset;
+}
+
+.ul-header li > a > img{
+    vertical-align: unset;
+}
+
+img{
+    vertical-align: unset;
 }
 
 .ul-header {
@@ -309,7 +334,7 @@ footer {
 .jssorb01 div:hover, .jssorb01 .av:hover { background-color: #d3d3d3; }
 .jssorb01 .av { background-color: #39B8CD; }
 .jssorb01 .dn, .jssorb01 .dn:hover { background-color: #555555; }
-	
+
 	
 @font-face {
    font-family: Avo;
@@ -332,7 +357,7 @@ footer {
 }
 
 .ul-ban-nganh {
-	list-style-type: none;
+	list-style-type: disc;
 	margin: 16px 15px 0px 40px;
 }
 
@@ -346,11 +371,16 @@ footer {
 	font-size: 11px;
 	font-family: AvoBold;
 	width: 33%;
+	margin: 0 auto;
 }
 
 .ban-nganh a img:hover {
     background-color: #F9FCFF;
     opacity: 0.7;
+}
+
+.ban-nganh a {
+    color: #095a95 !important;
 }
 
 #location {
@@ -400,12 +430,20 @@ footer {
     margin: 19px;
 }
 
-#main-body .title {
+/*#main-body .title {
     color: #002132;
     font-family: AvoBold;
     font-size: 23px;
-}
+}*/
 
 .main-content {
     min-height: 300px;
+    font-family: Avo !important; 
+    color: #002132;
+}
+
+.main-content h1 {
+    font-family: AvoBold !important; 
+    color: #002132 !important;
+    font-size: 23px;
 }

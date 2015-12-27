@@ -56,20 +56,25 @@
 		}
 	};
 
-	var jssor_sliderb = new $JssorSlider$("sliderb_container", options);
-	//responsive code begin
-	//you can remove responsive code if you don't want the slider scales while window resizes
-	function ScaleSlider() {
-		var parentWidth = jssor_sliderb.$Elmt.parentNode.clientWidth;
-		if (parentWidth)
-			jssor_sliderb.$ScaleWidth(Math.min(parentWidth, 1000));
-		else
-			window.setTimeout(ScaleSlider, 30);
-	}
-	ScaleSlider();
+	try {
+		var jssor_sliderb = new $JssorSlider$("sliderb_container", options);
+		//responsive code begin
+		//you can remove responsive code if you don't want the slider scales while window resizes
+		function ScaleSlider() {
+			var parentWidth = jssor_sliderb.$Elmt.parentNode.clientWidth;
+			if (parentWidth)
+				jssor_sliderb.$ScaleWidth(Math.min(parentWidth, 1000));
+			else
+				window.setTimeout(ScaleSlider, 30);
+		}
+		ScaleSlider();
 
-	$(window).bind("load", ScaleSlider);
-	$(window).bind("resize", ScaleSlider);
-	$(window).bind("orientationchange", ScaleSlider);
-	//responsive code end
+		$(window).bind("load", ScaleSlider);
+		$(window).bind("resize", ScaleSlider);
+		$(window).bind("orientationchange", ScaleSlider);
+		//responsive code end
+	} catch(e) {
+		console.log(e.stack);
+	}
+	
 });
