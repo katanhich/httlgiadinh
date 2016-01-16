@@ -45,12 +45,10 @@
                  </ul>
             </nav> 
 
-            <!-- <div class="title">
-                GIỚI THIỆU BAN THANH NIÊN
-            </div> -->
-
-            <div class="main-content">
-              <div id="mainContent" class="contentPane" runat="server"></div>
+            <div class="main-content clearfix">
+              <div id="mainContent" class="contentPane left tmain-article" runat="server"></div>
+              <div id="sidebarNews" class="contentPane right aside-news" runat="server">
+              </div>
             </div>
         </div>
         <!-- end main body -->
