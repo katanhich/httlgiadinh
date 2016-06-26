@@ -6,6 +6,10 @@
 <%@ Register TagPrefix="dnn" TagName="LOGIN" Src="~/Admin/Skins/Login.ascx" %>
 <%@ Register TagPrefix="dnn" TagName="LINKTOMOBILE" Src="~/Admin/Skins/LinkToMobileSite.ascx" %>
 <%@ Register TagPrefix="dnn" TagName="MENU" src="~/DesktopModules/DDRMenu/Menu.ascx" %>
+<%@ Register TagPrefix="fortyfingers" TagName="STYLEHELPER" src="~/DesktopModules/40Fingers/SkinObjects/StyleHelper/StyleHelper.ascx" %>
+<fortyfingers:STYLEHELPER ID="STYLEHELPER1" RemoveCssFile="default.css" runat="server" />
+<fortyfingers:STYLEHELPER ID="STYLEHELPER2" RemoveCssFile="ie.css" runat="server" />
+<fortyfingers:STYLEHELPER ID="STYLEHELPER3" RemoveCssFile="portal.css" runat="server" />
 
 <div id="container">
 
@@ -20,7 +24,7 @@
         <div id="main-body">
             <div class="center" id="events">		
                 <div>
-                    <div class="event" onclick="changePage('Thong-Tin/Tin-Tuc/Su-Kien.aspx')">
+                    <div class="event" onclick="changePage('/Thong-Tin/Tin-Tuc/Su-Kien.aspx')">
                         <div>
                             <a>
         						<img class="logo-menu" src="/Portals/_default/Skins/GDWeb/Images/icon/trang-chu/chuong-trinh.png" />
@@ -29,7 +33,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="event" onclick="changePage('Thong-Tin/Thong-Tin-Chung/Lam-Sao-Thuoc-Ve-Chua.aspx')">
+                    <div class="event" onclick="changePage('/Thong-Tin/Thong-Tin-Chung/Lam-Sao-Thuoc-Ve-Chua.aspx')">
                         <div class="block-red">
                             <a>
         						<img class="logo-menu" src="/Portals/_default/Skins/GDWeb/Images/icon/trang-chu/tim-hieu-Chua.png" /></br>
@@ -37,7 +41,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="event" onclick="changePage('Thong-Tin/Tin-Tuc/Ket-Noi.aspx')">
+                    <div class="event" onclick="changePage('/Ket-Noi.aspx')">
                         <div>
                             <a>
         						<img class="logo-menu" src="/Portals/_default/Skins/GDWeb/Images/icon/trang-chu/ket-noi.png" /></br>
@@ -45,7 +49,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="event" onclick="changePage('Thong-Tin/Tai-Lieu/Thu-Vien-Bai-Giang.aspx')">
+                    <div class="event" onclick="changePage('/Thong-Tin/Tai-Lieu/Thu-Vien-Bai-Giang.aspx')">
                         <div>
                             <a>
         						<img class="logo-menu" src="/Portals/_default/Skins/GDWeb/Images/icon/trang-chu/bai-giang.png" /></br>
@@ -111,7 +115,7 @@
                     <ul class="ul-ban-nganh">
                         <li style="display:flex; width:100%">
                             <div class="ban-nganh">
-                                <a href="Muc-Vu/Ban-hat-le/Lao-nien.aspx">
+                                <a href="#">
                                     <img class="logo-ban-nganh" src="/Portals/_default/Skins/GDWeb/Images/icon/ban-nganh/lao-nien.png" />
                                     </br>
                                     LÃO NIÊN
@@ -120,20 +124,20 @@
                         </li>
                         <li style="display:flex; width:100%">
                             <div class="ban-nganh">
-                                <a href="Muc-Vu/Ban-hat-le/Thanh-trang.aspx">
+                                <a href="/Muc-Vu/Ban-hat-le/Thanh-trang.aspx">
                                     <img class="logo-ban-nganh" src="/Portals/_default/Skins/GDWeb/Images/icon/ban-nganh/thanh-trang.png" />
                                     </br>
                                     THANH TRÁNG
                                 </a>
                             </div>
                             <div class="ban-nganh">
-                                <a href="Muc-Vu/Ban-hat-le/Trang-nien.aspx">
+                                <a href="/Muc-Vu/Ban-hat-le/Trang-nien.aspx">
                                     <img class="logo-ban-nganh" src="/Portals/_default/Skins/GDWeb/Images/icon/ban-nganh/trang-nien.png" /></br>
                                     TRÁNG NIÊN
                                 </a>
                             </div>
                             <div class="ban-nganh">
-                                <a href="Muc-Vu/Ban-hat-le/Trung-nien.aspx">
+                                <a href="/Muc-Vu/Ban-hat-le/Trung-lao.aspx">
                                     <img class="logo-ban-nganh" src="/Portals/_default/Skins/GDWeb/Images/icon/ban-nganh/trung-nien.png" /></br>
                                     TRUNG NIÊN
                                 </a>
@@ -141,19 +145,19 @@
                         </li>
                         <li style="display:flex; width:100%">
                             <div class="ban-nganh">
-                                <a href="Muc-Vu/Ban-hat-le/Thieu-nhi.aspx">
+                                <a href="/Muc-Vu/Ban-hat-le/Thieu-nhi.aspx">
                                     <img class="logo-ban-nganh" src="/Portals/_default/Skins/GDWeb/Images/icon/ban-nganh/thieu-nhi.png" /></br>
                                     THIẾU NHI ẤU
                                 </a>
                             </div>
                             <div class="ban-nganh">
-                                <a href="Muc-Vu/Ban-hat-le/Thieu-nien.aspx">
+                                <a href="/Muc-Vu/Ban-hat-le/Thieu-nien.aspx">
         							<img class="logo-ban-nganh" src="/Portals/_default/Skins/GDWeb/Images/icon/ban-nganh/thieu-nien.png" /></br>
                                     THIẾU NIÊN
                                 </a>
                             </div>
     						<div class="ban-nganh">
-                                <a href="Muc-Vu/Ban-hat-le/Thanh-nien.aspx">
+                                <a href="/Muc-Vu/Ban-hat-le/Thanh-nien.aspx">
         							<img class="logo-ban-nganh" src="/Portals/_default/Skins/GDWeb/Images/icon/ban-nganh/thanh-nien.png" /></br>
                                     THANH NIÊN
                                 </a>

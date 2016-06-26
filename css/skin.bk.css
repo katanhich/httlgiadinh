@@ -155,6 +155,7 @@ nav ul li:hover > .sub-menu {
 
 footer {
     background-color: #0F7AB2;
+    margin-top: 7px;
 }
 
 .footer-block {
@@ -456,15 +457,27 @@ div.main-event:nth-child(odd) {
 
 .aside-news {
     width: 180px;
+    overflow: auto;
+    height: 787px;
+}
+
+.aside-news .mCSB_scrollTools {
+    width: 8px !important;
+ }
+
+.aside-news .mCS-minimal-dark {
+    margin-top: 1px !important;
 }
 
 .latest-aside-news {
     margin-bottom: 7px;
 }
 
-.latest-aside-news > a > img {
-    width: 180px;
+.latest-aside-news img {
+    width: 167px;
     height: 130px;
+    box-shadow: 0px 3px 5px 0px #888888;
+    border-radius: 3px;
 }
 
 .latest-aside-news > a > p {
@@ -473,3 +486,52 @@ div.main-event:nth-child(odd) {
 }
 
 /* =========================== */
+
+/*==========bai giang==========*/
+
+#baigiang-content {
+    margin-bottom: 50px;
+}
+
+#baigiang-header {
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    background-color: #E30B2F !important;
+}
+
+#baigiang-left {
+    width: 30%;
+}
+
+#baigiang-right {
+    width: 70%;
+}
+
+#baigiang-content #left-top {
+    background-color: #0F7AB2;
+    height: 130px;
+}
+
+#baigiang-content #left-bottom {
+    background-color: #002538;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+#left-bottom p {
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+#breadcrumb {
+    background-color: #9F9F9F;
+    color: white;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-bottom: 3px;
+}
+
+/*==========end bai giang==========*/
